@@ -1,0 +1,18 @@
+input{
+    height: 30px;
+    margin-right: 5px;
+    border-bottom: solid 1px  rgb(110, 68, 121);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: blueviolet;
+}
+ button{
+    color: white;
+    background-color: rgb(110, 68, 121);
+}
+button:hover{
+    color:rgb(110, 68, 121) ;
+    background-color:white ;
+}

@@ -1,0 +1,35 @@
+
+  .settings-panel {
+    position: fixed;
+    width: 21.5%;
+    top: 20%;
+    background-color: rgb(124, 89, 128) ;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(2, 136, 247, 0.712);
+    z-index: 1000;
+  }
+  
+  .settings-panel button {
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  .settings-panel button:hover {
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+
+  /* Media query pour les très petits écrans */
+  @media (max-width: 1240px) {
+    .settings-panel {
+      top: 10%;
+      padding: 4px;
+    }
+  
+    .settings-panel button {
+      font-size: 10px; /* Réduit la taille de la police pour les petits écrans */
+      padding: 4px; /* Réduit le padding des boutons */
+    }
+  }
+  

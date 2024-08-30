@@ -1,0 +1,28 @@
+.liste{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.docliste{
+    width: 70%;
+    background-color: rgb(110, 68, 121) ;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px 3px rgb(112, 106, 106);
+    padding: 5px;
+    color: white;
+}
+
+@media (max-width: 1240px) {
+    .docliste h3{
+        text-align: justify;
+        font-size: x-small;
+    }
+    .docliste li{
+        text-align: justify;
+        font-size: x-small;
+    }
+  
+  }

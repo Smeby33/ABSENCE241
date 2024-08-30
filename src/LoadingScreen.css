@@ -1,0 +1,14 @@
+.loading-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff; /* ou la couleur de fond de ton choix */
+    text-align: center;
+  }
+  
+  .app-icon {
+    width: 350px; /* Ajuste la taille de l'icône selon tes préférences */
+    height: 350px;
+  }
