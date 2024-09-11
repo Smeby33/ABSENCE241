@@ -142,7 +142,7 @@ function App() {
       const message = encodeURIComponent(
         "Voici la liste des absences que je viens d'enregistrer."
       );
-      window.open(`https://wa.me/?text=${message}+${pdf.save('absences.pdf')}`, '_blank');
+      window.open(`https://wa.me/?text=${message}`, '_blank');
     });
   }
 
